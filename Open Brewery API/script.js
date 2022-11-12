@@ -1,6 +1,9 @@
 let newElement = document.createElement('div')
 document.body.appendChild(newElement)
+let newElement = document.createElement('div')
+document.body.appendChild(newElement)
 
+const inputTag = document.getElementById("text-inp")
 
 const getbrewery = async ()=>{
     const BreweryArea = document.getElementById('Brewery-area')
